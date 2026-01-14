@@ -1,3 +1,6 @@
 [
   { "nombre": "Argentina", "organizacion": "democracia", "partidos": ["AMigos de la estupidez","CInco"], "id_presidente": "PRESIDENTE" }
+  {"nombre": "Bolivia", "organizacion": "democracia", "partidos": ["Movimiento al Socialismo","Comunidad Ciudadana"], "id_presidente": "PRESIDENTE" }
+  { "nombre": "Brasil", "organizacion": "democracia", "partidos": ["Partido de los Trabajadores","Partido Socialista Brasileño"], "id_presidente": "PRESIDENTE" }
+  { "nombre": "Chile", "organizacion": "democracia", "partidos": ["Partido Socialista","Renovación Nacional"], "id_presidente": "PRESIDENTE" }
 ]
