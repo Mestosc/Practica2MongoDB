@@ -29,7 +29,10 @@ public class Secuencia {
         for (Pais pais : paises) {
             paisService.anadirPais(pais);
         }
-
+        paises[0].setNome("Republica Propia");
+        paisService.anadirPais(paises[0]);
+        paisService.eliminarPais(paises[1].getId());
+        presidenteService.eliminarPresidente(presidentes[2].getId());
     }
     public Pais[] importarDesdeJSONPais(String archivoJSON) {
         ObjectMapper mapper = new ObjectMapper();

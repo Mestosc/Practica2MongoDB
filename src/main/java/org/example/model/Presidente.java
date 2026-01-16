@@ -1,10 +1,12 @@
 package org.example.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "Presidente")
 public class Presidente {
+
     @Id
     private String id;
     private String nome;
