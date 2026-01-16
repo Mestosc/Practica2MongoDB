@@ -1,0 +1,10 @@
+[
+  {"nombre": "Oscar", "edad": 23, "partido": "AMigos de la estupidez"},
+  {"nombre": "Juan Perez", "edad": 58, "partido": "CInco"},
+  {"nombre": "Carlos Morales", "edad": 62, "partido": "Movimiento al Socialismo"},
+  {"nombre": "Miguel Santos", "edad": 55, "partido": "Comunidad Ciudadana"},
+  {"nombre": "Ana Silva", "edad": 51, "partido": "Partido de los Trabajadores"},
+  {"nombre": "Roberto Costa", "edad": 60, "partido": "Partido Socialista Brasileño"},
+  {"nombre": "Felipe Gutierrez", "edad": 54, "partido": "Partido Socialista"},
+  {"nombre": "Catalina Ruiz", "edad": 49, "partido": "Renovación Nacional"}
+]
