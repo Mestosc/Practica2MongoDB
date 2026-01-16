@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.controller.MetodosPresidente;
-import org.example.controller.PaisController;
+import org.example.services.PaisService;
+import org.example.services.PresidenteService;
 import org.example.model.Pais;
 import org.example.model.Presidente;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,21 +13,21 @@ import java.io.IOException;
 
 @Service
 public class Secuencia {
-    MetodosPresidente metodosPresidente;
-    PaisController paisController;
+    private final PresidenteService presidenteService;
+    private final PaisService paisService;
     @Autowired
-    public Secuencia(MetodosPresidente metodosPresidente, PaisController paisController) {
-        this.metodosPresidente = metodosPresidente;
-        this.paisController = paisController;
+    public Secuencia(PresidenteService presidenteService, PaisService paisService) {
+        this.presidenteService = presidenteService;
+        this.paisService = paisService;
     }
     public void ejecutarSecuencia() {
         Presidente[] presidentes = importarDesdeJSONPresidente("presidentes.json");
         for (Presidente presidente : presidentes) {
-            metodosPresidente.anadirPresidente(presidente);
+            presidenteService.anadirPresidente(presidente);
         }
         Pais[] paises = importarDesdeJSONPais("paises.json");
         for (Pais pais : paises) {
-            paisController.anadirPais(pais);
+            paisService.anadirPais(pais);
         }
 
     }
