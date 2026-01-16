@@ -1,10 +1,10 @@
 [
-  {"nombre": "Oscar", "edad": 23, "partido": "AMigos de la estupidez"},
-  {"nombre": "Juan Perez", "edad": 58, "partido": "CInco"},
-  {"nombre": "Carlos Morales", "edad": 62, "partido": "Movimiento al Socialismo"},
-  {"nombre": "Miguel Santos", "edad": 55, "partido": "Comunidad Ciudadana"},
-  {"nombre": "Ana Silva", "edad": 51, "partido": "Partido de los Trabajadores"},
-  {"nombre": "Roberto Costa", "edad": 60, "partido": "Partido Socialista Brasileño"},
-  {"nombre": "Felipe Gutierrez", "edad": 54, "partido": "Partido Socialista"},
-  {"nombre": "Catalina Ruiz", "edad": 49, "partido": "Renovación Nacional"}
+  {"nome": "Oscar", "edade": 23, "partido": "AMigos de la estupidez"},
+  {"nome": "Juan Perez", "edade": 58, "partido": "CInco"},
+  {"nome": "Carlos Morales", "edade": 62, "partido": "Movimiento al Socialismo"},
+  {"nome": "Miguel Santos", "edade": 55, "partido": "Comunidad Ciudadana"},
+  {"nome": "Ana Silva", "edade": 51, "partido": "Partido de los Trabajadores"},
+  {"nome": "Roberto Costa", "edade": 60, "partido": "Partido Socialista Brasileño"},
+  {"nome": "Felipe Gutierrez", "edade": 54, "partido": "Partido Socialista"},
+  {"nome": "Catalina Ruiz", "edade": 49, "partido": "Renovación Nacional"}
 ]

@@ -1,5 +1,6 @@
 package org.example.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -7,6 +8,7 @@ import java.util.ArrayList;
 
 @Document(collection = "Pais")
 public class Pais {
+    @JsonIgnore
     @Id
     private String id;
 
